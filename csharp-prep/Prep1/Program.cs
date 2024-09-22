@@ -1,6 +1,6 @@
 using System;
 
-namespace prep1
+namespace Prep1
 {
     class Program
     {
