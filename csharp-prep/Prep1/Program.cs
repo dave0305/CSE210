@@ -1,14 +1,17 @@
 using System;
 
-class Program
+namespace prep1
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("What is your first name: ");
-        string firstName = Console.ReadLine();
-        Console.WriteLine("What is your last name: ");
-        string lastName = Console.ReadLine();
+        static void Main(string[] args)
+        {
+            Console.Write("What is your first name: ");
+            string firstName = Console.ReadLine();
+            Console.Write("What is your last name: ");
+            string lastName = Console.ReadLine();
 
-        Console.WriteLine($"Your name is {lastName},{firstName} {lastName}");
+            Console.WriteLine($"Your name is {lastName},{firstName} {lastName}");
+        }
     }
 }
